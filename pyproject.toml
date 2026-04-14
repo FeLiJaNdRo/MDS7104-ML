@@ -5,13 +5,17 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "jupyterlab>=4.5.6",
-    "numpy>=2.4.3",
-    "pandas>=3.0.1",
-    "plotly>=6.6.0",
+    "ipykernel>=7.2.0",
+    "ipython>=9.12.0",
+    "matplotlib>=3.10.8",
+    "matplotlib-inline>=0.2.1",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
     "pre-commit>=4.5.1",
-    "ruff>=0.15.7",
+    "requests>=2.33.1",
+    "ruff>=0.15.10",
     "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
 ]
 [tool.ruff]
 target-version = "py312"
