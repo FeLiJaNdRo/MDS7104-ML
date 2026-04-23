@@ -207,3 +207,12 @@ marimo/_lsp/
 __marimo__/
 .DS_Store
 .DS_Store
+
+# Cache de ruff
+.ruff_cache/
+
+# Archivos de configuración local
+.pre-commit-config.yaml
+.python-version
+pyproject.toml
+uv.lock
