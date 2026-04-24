@@ -213,5 +213,4 @@ __marimo__/
 
 # Archivos de configuración local
 .python-version
-pyproject.toml
 uv.lock
