@@ -19,10 +19,11 @@ dependencies = [
     "ruff>=0.15.10",
     "scikit-learn>=1.8.0",
     "scipy>=1.17.1",
+    "umap-learn>=0.5.12",
 ]
 [tool.ruff]
 target-version = "py312"
-line-length = 1000
+line-length = 320
 
 [tool.ruff.lint]
 select = [
@@ -36,3 +37,5 @@ select = [
 ignore = [
     "E501", # line-too-long: largo de línea (delegado a ruff-format)
 ]
+[tool.ruff.lint.per-file-ignores]
+"*.ipynb" = ["F821", "B007"]
